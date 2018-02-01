@@ -7,8 +7,23 @@ defmodule MapsMatrixApi.MixProject do
       version: "0.1.0",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      description: "A simple interface for Google Maps Distance Matrix Api",
+      aliases: aliases(),
+      package: package()
     ]
+  end
+
+  defp package do
+    [
+      maintainers: [" Jeancarlo Barrios "],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/MonadLabs/maps_matrix_api"}
+    ]
+  end
+
+  defp aliases do
+    [c: "compile"]
   end
 
   # Run "mix help compile.app" to learn about applications.
