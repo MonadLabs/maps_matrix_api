@@ -1,6 +1,6 @@
 # MapsMatrixApi
 
-**TODO: Add description**
+MapsMatrixApi is a simple interface to connect to the Google Distance Matrix api inspired on [ex_maps](https://github.com/sntran/ex_maps)
 
 ## Installation
 
