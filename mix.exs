@@ -36,7 +36,9 @@ defmodule MapsMatrixApi.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tesla, "~> 0.10.0"}
+      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:tesla, "~> 0.10.0"},
+      {:jason, "~> 1.0"}
       # {:poison, ">= 1.0.0"}
     ]
   end

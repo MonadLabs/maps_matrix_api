@@ -1,6 +1,8 @@
 # MapsMatrixApi
 
-MapsMatrixApi is a simple interface to connect to the Google Distance Matrix api inspired on [ex_maps](https://github.com/sntran/ex_maps)
+
+MapsMatrixApi is a simple interface to connect to the Google Distance Matrix Api in elixir inspired by [ex_maps](https://github.com/sntran/ex_maps)
+This is for internal use
 
 ## Installation
 
